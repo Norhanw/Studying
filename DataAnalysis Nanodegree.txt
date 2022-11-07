@@ -1,0 +1,495 @@
+
+1/ Descriptive Statistcs
+========================================================
+===Data Types:
+1: Quantative Data: numerical data that we can apply mathematical operations on 
+	a. Discrete -> are counters for things such as; number of dogs, test questions answered correctly
+	b. Continuous -> can be divided into sub-units such as; Height, Age, Income
+2. Categorical Data:
+	a. Ordinal -> have a rank ordering associated with it. It means that 
+	some values are either higher or lower than other values. Examples; Grade, Survey Rating, Zip code
+	b. Nominal -> describe an entity and can be places in any order, such as; Gender, Marital Status, Breakfast Items , Breed of dogs
+
+
+Describing quatative data, we discuss: Center, Spread, Shape, and Outliers.
+
+===Categorical data is analyzed usually by looking at the counts or proportion of individuals that fall into each group
+
+1:Measures of Center: give an idea of the average
+	a. Mean -> is associated with the word "expect". It is calculated that the sum of all values / count of values
+	b. Median -> divides the data set ( 50 % of data < median < 50% of data). It is in the middle value of the data set. In order to compute the median, we MUST sort our values first.
+	c. Mode -> the most common value of the data set
+	
+Notation is a common math language used globally to communicate
+
+Random Variable: is a placeholder for the possible values of some process. It is x (in notation) and it is described in a column in a spreadsheet
+Random variable is notated by a capital letter, where we observe a particular value of a random value we use small letters notation.
+For example, the amount of time someone spends on some website is a random variable (X), when the first person visits the website and spends 5 minutes, we have now observed this outcome of our random variable x1.
+
+What is the probability someone spends more than 20 minutes in our website?
+In notation, we would write: P(X > 20)?
+
+===An aggregation is a way to turn multiple numbers into fewer numbers (commonly one number)
+Summation is a common aggregation. The notation used to sum our values is a greek symbol called sigma \SigmaΣ.
+Calculation of Mean in notation: mean = 1/n Σ[i=1 to n](xi), or xbar
+
+2:Measures of Spread: give an idea of how data instances differ. How far a point is from another.
+	a. Range = maximum - minimum
+	b. Interquartile Range (IQR) = Q3- Q1
+	c. Standard Deviation: is a measure telling on average, how much each point varies from the mean of the points. It is the average distance of each observation from the mean
+	d. Variance: is the average squared difference of each observation from the mean
+	
+	the standard deviation is the square root of the variance.
+	
+A Histogram is a visual to represent quatative data. We need to bin our data. Each bin represents a range of values in a dataset. The number of values that fall in the range of each bin determines the height of each histogram bar.
+
+===Five Number Summary:
+	a. Maximum
+	b. Third Quartile. It is a value that 75% of data fall below
+	c. Second Quartile(median). It a value that 50% of data fall below. It doens't exit in either sets to calculate Q1 and Q3. 
+	d. First Quartile. It is a value that 25% of data fall below
+Box Plot:
+can be useful for quickly comparing the spread of two data sets across some key metrics like quartiles, maximum, and minimum
+
+
+The variance is the average squared difference of each observation from the mean.
+
+===Standard deviation is a common metric used to compare the spread of two datasets. The benefits of using a single metric instead of the 5 number summary are:
+
+-It simplifies the amount of information needed to give a measure of spread
+-It is useful for inferential statistics
+
+
+
+Notes:
+-Standard deviation is used to compare spread of different groups of datasets.
+-High standard deviation is associated with high risk, for example if the data is pertained to money
+-For fair comparison between different datasets, the unit must be the same for them.
+-Variance have squared units for data ,however, the standard deviation shares the same unit with the original dataset which is found to be more useful.
+
+
+Understand a histogram helps to determine the shape of our dataset.
+
+Left-skewed shape:
+-taller bins on the right and shorter bins on the left
+- mean < median
+- Longer whisker on the left
+- Examples: GPA, Age of Death, Price
+
+Right-skewed shape:
+- taller bins on the left and shorter bins on the right
+- mean > median
+- Longer whisker on the right
+- Examples: Distribution of wealth, Athletic Abilites
+Symmetric shape: (normal distribution/ Bell shaped) 
+-If you draw a line in the middle  the left side will mirror the right side
+-mean = median = mode which all sets in the center
+- whisker on the right is the same distance as the whisker on the left
+-Examples: heights, weights, scores
+
+
+Points about outliers:
+1. Noting they exist and the impact on summary statistics.
+2. If typo - remove or fix
+3. Understanding why they exist, and the impact on questions we are trying to answer about our data.
+4. Reporting the 5 number summary values is often a better indication than measures like the mean and standard deviation when we have outliers.
+5. Be careful in reporting. Know how to ask the right questions.
+6. Standard deviation and mean are better methods to describe a bell shaped dataset, however, five number summary provide more information for skewed dataset
+
+===Inferential Statistics:
+They are aimed for drawing conclusions about a population based on data collected from a sample of individuals from that population
+Population - our entire group of interest.
+Parameter - numeric summary about a population
+Sample - a subset of the population
+Statistic numeric summary about a sample
+
+
+
+2/ Spreadsheets
+=============================================
+
+Cell Formula: an expression, beginning with an equal sign (=), that defines the operations which calculate the value for the cell
+Function: a standard-defined routine that can be used in formulas. = SUM(A1, C7, D4)
+Parameter: a value or expressions required by a function to determine a result, defined by the function. It can be a constant, a cell reference, a range reference, or another function.
+
+===Excel Tricks:
+- Using the dollar sign $ before a column or a row makes it constant in formulas.
+- SUBSTITUTE({text}, {old_text}, {new_text})
+- FIND(find_text, within_text, [start_num])
+		find_text: the text you want to find.
+		within_text: the text containing the text you want to find.
+		start_num: OPTIONAL - character position at which to start the search.
+- MID(text, start_num, num_char)
+		text: text string containing the characters you want to extract.
+		start_num: position of the first character you want to extract in text.
+		num_chars: the number of characters you want MID to return from text.
+- TRIM(): removes all spaces from a text string except for single spaces between words.
+- CONCATENATE(): joins several text strings to one string. 
+		It's important to note that this will not automatically add spaces between them, so make sure to add spaces as formula parameters if you need them.
+- UPPDER(): converts all characters in a string to uppercase.
+- LOWER(): converts all characters in a string to lowercase.
+- PROPER(): converts a text string to a proper case like this(Hi This Is Norhan).
+- From Data Tab, Remove Duplicates. You have to select the columns first, then remove the duplicates. You can specify that your columns have headers.
+- From Data Tab, Split Columns. Add a column to the right of the one you want to split, and then in the Data tab, selecting "Text to Columns".
+- From Data tab, Sort. Click the "Sort" button. You can also choose which column to sort on, or even multiple columns.
+- Filter: A method to group data by selecting characteristics of one or more columns of a data set. 
+- IF: 	> for greater than
+		< for less than
+		= for equal
+		>= for greater than or equal to
+		<= for less than or equal to
+		<> for not equal (note that are no equal signs!)
+- COUNTIF will count the number of cells in a range that meet a given condition.
+- SUMIF will instead sum the values from the cells in a range that meet a given condition.
+- In the top left corner of the design menu is the Quick Layout and the Add Chart Element menu items:
+	Quick Layout menu is a set of pre-made layouts that affect which chart elements are included and where, like the axis labels and the legend. You can select various ones and see the effect.
+	Add Chart Element menu. With this menu, it's possible to add and remove elements of all types from the chart. There is a lot here, and rather than try to learn all of it, we'll just use some parts as we need them. It's good to know where to find it though, for those times when you know what you want to change, and all those pre-made formats and layouts just don't have what you need.
+- COUNTA: Allows you to count the number of non-empty cells within an array
+- VLOOKUP: 	Looks for a value in the leftmost column of a table, and returns a value in the same row from a column you specify. By default, the table must be sorted in an ascending order.
+	VLOOKUP(lookup_value,table_array,col_index_num, TRUE/FALSE)
+
+Aggregation functions (like SUM, AVERAGE, MAX, MIN, MEDIAN and STDEV): functions that operate across a group of data, resulting in a single value
+Logical Functions (like IF, AND, OR, NOT)
+Conditional Aggregation functions (such as COUNTIF and SUMIF)
+Pivot Tables: a pivot table is a tool that helps summerize and aggregate data all in one step
+Named Ranges: select a cell, from Formula Tab, select define name
+Lookup Function: A function that uses a keyword and index to "look up" a value in a table. There are both horizontal and vertical lookup functions, although we will focus on a vertical one called VLOOKUP.
+
+===Data Visualization:
+for categorical data:
+- Pie Chart: A pie chart is used to illustrate proportionality
+- Bar Chart: Is used to compare category values with each other
+for numerical data:
+- Line Chart:  gives us a better picture of the data set and shows the changes in a value over time
+- Scatter Chart: can be useful for displaying bivariate numerical data , in other words, it shows a relation between two or more variables. If the data of both variables move up together, they have a positive correlation, If one variable increases as the other decreases, the two variables have a negative correlation
+- Histogram Chart: can be usuful for frequency
+- Box Plot Chart:  visualization of data statistical spread for showing distribution of a numerical dataset from minimum to maximum, including the 1st, 2nd, and 3rd quartiles
+- Column chart :to compare counts of categories within a data set. This kind of chart answers a question like: how many players are there in each playing position in the league?
+But what if we want to ask the question: how many players made under $1 million in salary, and between $1 and $2 million, and between $2 and $3 million in salary? This kind of chart is called a histogram, and the groupings we choose such as, 1) all salaries between $1 and $2 million, and 2) salaries between $2 and $3 million, are the bins.
+
+To make spreadsheets attractive they should be:
+- Be readable
+- Be interesting
+- Show the required information
+- Not show extra information that doesn't matte
+Refer to Spreadsheets-> Visualize data -> Professional Presentations
+
+
+3/Business Metrics:
+=============================================
+
+Business Metrics Categories:
+Key Performance Indicators (KPIs)
+Growth
+Marketing Funnel
+Sales Funnel
+Engagement
+
+
+
+
+===Marketing Channels:
+Online marketing can take advantage of cookie tracking, which allows customer tracking across time and platforms.
+ 
+===Customer Journey:
+1. Awareness: get the business' name in front a potential customer. For example; the customer sees an Ad on some platform
+2. Interest: the customer decides to check the Ad and go into the website of the business
+3. Desire: the customer by exploring the website then engages in the purchase process and starts considering buying by adding items to the cart
+What a cookie does: The business goal for site visitors may be for visitors to engage with a prompted call to action on the website; for example, giving an email address or downloading a brochure.
+Call To Action (CTA): A marketing term that refers to an action a website visitor is supposed to take when given a specific prompt on a website. These can be words or phrases, or icons that prompt and encourage the user to perform the action.
+4. Purchase
+5. Post-purchase: Actions customers take after purchasing an item that promotes and increase sales and advocate on behalf of the company. For e.g., coming back and purchasing more items, sharing or liking the company or product on social media, taking pictures of the item, and tagging it on Pinterest.
+
+Marketing funnel is the process of tracking and analyzing each step of the customer journey with data.
+
+===Marketing Funnel Levels:
+Level 1: Impressions & Reach – building brand and product awareness using ad platforms and search engine optimization (SEO). SEO allows ads to show up for the right mix of search terms as people search online
+*Search Engine Optimization (SEO): The goal of search engine optimization is to influence the frequency of a website appearing in response to specific search terms in a search engine.
+	Metrics:
+		* Impressions – an instance of an advertisement appearing on a website when it is viewed by a visitor.
+		
+Level 2: Lead generation – measures how many visits are made to the website.
+*Lead: A potential customer interested in the products or services of a company.
+	Metrics:
+		* Click – every time a website visitor views the ad and clicks it
+		* Click Thru Rate – number of users that clicked an ad or clicked a link sent via email. CTR = (Clicks/ Impressions) * 100
+		If CTR decreases or low, it means that the ad is not generating enough interest. If CTR increases or high, it means the ad is interesting, maybe you should increase the number of impressions.
+		* Cost Per Click - refers to the cost to get a click on your ad. It helps us gauge the cost of advertising on the specific platform, so we can see which platform is generating more leads. CPC = Cost of advertisement on a social platform / Number of clicks came from that platform
+		CPC is an indicator of the cost-effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platform is yielding a higher impression and reach and resulting in potential leads
+		* Cost Per Lead – indicates a user has become a potential customer or lead because they have expressed interest in the company by downloading a document, creating an account, or providing an email address. If the customer provides their email or any piece of information about themselves, that means they are indeed interested and ready to become a paying customer. With Cost Per Lead we are tracking whether the potential customer turned into a lead within a given time period, that could be a 30-day window or 60-day window. CPL is an indicator of the cost-effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms yielded more leads. A low cost per lead means more of this particular type of person is likely to be interested in the product.
+		CPL = Cost of advertisement on a social platform / Number of leads came from that platform
+		
+Level 3: Conversion – when a lead(potential customer) converts to a paid customer. The customer makes a purchase. The ultimate goal is to increase the lead-to-customer conversions at the bottom of the funnel
+	Metrics:
+		* Customer Acquisition Cost - is the metric used in the last step of the marketing funnel and tells us what the cost is to acquire a paying customer.
+		CAC = Total sales and marketing cost / Number of converted costumers
+		A good rule of thumb for CAC is we want 25 % of revenue
+		Sometimes it takes a long time for a lead to convert to a customer. To account for this 'lag' in revenue, CAC is often calculated based on a company's average sales cycle. (*averaged across the targeted time period* ). In this case CAC = (Prior Month Marketing Costs + Weighted Avg Costs (Overhead+Salaries)) / Number of converted costumers
+		The company's goal is to keep the CAC low while increasing revenue, as this positively impacts the profit margin and profits.
+		*Conversion rates based on impressions = Numbers/Arrived on site Numbers
+		*Conversion rates based on each level = Current level Numbers/Prior Level Numbers
+		
+Level 4: Loyalty - That customer loyalty allows you to track how many revisits a customer is making after their first purchase, or how many of the customers have continued shopping after their first purchase.
+	Metrics:
+		* Repeat Purchase Rate
+		* Net Promoter Score
+		
+Level 5: Advocay - companies sometimes track is whether their customer is advocating for their company. That is, saying good things about the product and services. Leaning on social media provides a great opportunity to do just that
+	Metrics:
+		* Customer Referrals
+		* Leads from Social Media
+		
+References:
+https://www.mailigen.com/blog/email-campaign-click-through-rate-what-it-is-and-how-to-improve-it/ : 
+Discusses how Click Through Rate is one of the main email marketing metrics showing the engagement of your target audience. Also addresses How to Improve It.
+https://www.optimizely.com/optimization-glossary/click-through-rate/ :
+Discusses how CTR is used to analyze and measure success for emails, webpages, and online advertising.
+https://www.wordstream.com/blog/ws/2016/02/29/google-adwords-industry-benchmarks :
+Provides useful benchmarks for CTRs across industries
+https://www.marketingcharts.com/customer-centric/lead-generation-and-management-79707 :
+Cost per Lead (CPL) Benchmarks, by Industry, Revenue and Company Size
+https://blog.hubspot.com/marketing/beginner-inbound-lead-generation-guide-ht
+Lead Generation: A Beginner's Guide to Generating Business Leads the Inbound Way
+
+To capture the financial cost , we should consider the impact of marketing campaign in terms of revenue. This is captured using the following metrics:
+- Cost Per Acquisition CPA: focuses on sales and marketing costs, including the cost of supplies, labor, marketing, overhead, and sales that it took to convert a non-paying customer(called an acquisition) into a paying customer. CPA = (Marketing and Sales Cost)/ number of new leads customers
+- Life Time Value
+
+What is the difference between CPA and CAC?
+CPA – is focused on the marketing and sales cost, including overhead and salaries, with a focus on sales leads—not actual paying customers(deals with cost per (converted ) lead.)
+CAC – is focused on actual new customers who have made a purchase. It compares how much it costs to actually acquire customer
+
+
+===Lifetime Value Terminology:
+- Purchase Cycle: a time period that depicts the frequency products are purchased. For example; if you enroll into a nanodegree course every two weeks, then your purchase cycle is 2 weeks.
+- Total Sale Revenue per Cycle: a revenue earned from all customers per purchase cycle.
+- Number of Sales per Purchase Cycle: number of times your average customer buys during the purchase cycle.
+- Cost per Acquisition: is the total cost of marketing and sales divided by the number of new leads.
+- Expected Retention Time: Amount of time (measured in purchasing cycles) you expect to retain the customer.
+- Average Sale Revenue: the average revenue received from the customer per transaction during the cycle. Calculated as such; Total customer revenue / Number of purchases in the cycle.
+- Profit Margin per customer: is the percentage of sales that have turned into profits. It is calculated as such; ((Average Sale - Average Cost of Sale) / Average Sale)
+
+== Lifetime Value: the net profit that a business owner can attribute to the customer over the length of their relationship with the company. LTV = (Average Sale * Number of repeat sales * Expected retention time * Profit margin). Note that lifetime value is a useful metric for smaller value product unlike high value products such as a car or a house, you won't go back to buy them again
+
+
+References:
+Additional ways to calculate lifetime value:
+https://neilpatel.com/blog/how-to-calculate-lifetime-value/
+
+https://www.intechnic.com/blog/how-to-calculate-customer-lifetime-value-clv-to-market-to-high-value-customers/
+
+A question to further explain Lifetime value:
+Q: Calculate the Lifetime Value for Smoothie Rocks given the following information. An average purchase cycle of 2 weeks, with total sale revenue of $8 per order. The average customer order 5 orders per purchase cycle. The Cost per Acquisition is $7.50 and we expect to retain the customer for 3 years.
+
+Solution:
+Value 								Category									Description	Value
+Purchase Cycle						2 weeks										2
+Total Sale Revenue Per Cycle		$8 per order x 5 orders per 2 weeks			$40
+Number of Sales Per Purchase Cycle	5 orders per customer per cycle				5
+Cost Per Acquisition				$7.50										7.5
+Expected Retention Time				3 years x 26 weeks							78
+Average Sale Revenue				$40/5										8
+Profit Margin Per Customer			((8 - 7.5)/8)								0.0625
+===========================================================================================
+Lifetime Value						8 x 5 x 78 x 0.0625							$195
+Notes:
+Here is our thinking. Based on the LTV of $195, we believe Smoothie Rocks should not spend more than $195 on the most loyal customers. These customers will continue to bring value to Smoothie Rocks.If Smoothie Rocks spends more than $195 on their customer, Smoothie Rocks will likely have a loss in the long run because the customers will not stay loyal customers long enough for Smoothie Rocks to recoup the money spent to get these customers.
+
+Business to Business (B2B): When one business makes a business transaction (goods or services) with another business. Often takes place when one business is providing source materials to the other business to in turn finally sell it to the consumer.
+Business to Consumer (B2C): When a business sells products and services to the final consumer.
+
+
+===Sales funnel/pipeline: is a  the collection of steps a sales representative takes while navigating incoming leads or prospects through to making the final purchase. Sales metrics are used for measuring the performance of the sales team internal to the company.
+Sales Funnel Levels:
+Level 1: Prospects - suspected buyers
+Level 2: (sales)Leads - indicates the number of prospects that turned to leads.Is the number of potential customers who have shown interest
+	Metrics:
+		No of leads
+Level 3: Qualified Leads - are vetted leads that meet the ideal buyer profile based on the sales team. It this level, the sales team checks whether the lead can buy or not by checking if the product offered is within the lead's budget to confirm if they are viable lead.
+	Metrics:
+		Ratio of Qualified Leads to Sales Leads
+Level 4: Closing Deals/booking - Once the sales team has a qualified lead, you end with a closed deal or booking. At this stage, you can also have a lead on hold or last
+	Metrics:
+		Total Booking: number of closed deals
+		A booking is a won deal that is signed or where the purchaser is committed to buying the product.
+		Close-ratio: ratio of closed deals to leads from the sales pipeline
+		
+Average Deal Size = Total Sale Value of all Bookings / Total Number of Bookings
+The average number of days for typical Sales Cycle = Sum(Total number of daysfrom prospects stage to close the deal stage) for all closed deals / Number of closed deals
+
+
+
+===Growth Metrics:
+- Active users
+	Monthly active users tell the number of users who were active in the last month.
+	Daily active users are the users who were active in the previous day.
+- Stickiness is a very useful tool for several stakeholders, such as investors, to know if the website or app has a potential for growth or either on the trajectory, for growth. Essentially, stickiness tells us if the customers are coming back to the website or app every day, or rather, sticking around to actually engage with it. Stickiness = Daily active users / Monthly active users
+	Common benchmarks for various industries are as follow:
+		Social networking site is 0.5
+		Gaming apps, it is 0.1 to 0.2
+		Most other apps strive to achieve a stickiness ratio of 0.2
+		A higher stickiness ratio indicates the website or online app is engaging the customers.
+		
+	Negatives of stickiness:
+		Doesn't tell what the user was doing on the website
+		Is not a reliable measurement for start-ups as these companies are still in the marketing stage to get their name out
+		Not useful for apss that are not used frequently such as; travel app
+		
+- Churn rate captures the number of people we retain at the end of a time period. In general, an annual churn rate of 5% is seen as a reasonable benchmark.
+	Common benchmark for calculating churn rate:
+		Select an appropriate usage interval that is consistent with the business
+		Notice customers types, regions, and needs because they might have different churn rates
+		Churn rate is about the percentage of customers who stayed active during the whole usage cycle, so new customers gained during the time interval shouldn't be included
+	Churn rate is a measure of declining growth. Business need to make sure that they are acquiring new customers at a rate faster than their "churn rate"
+Customer Churn Rate = (Customers at hte beginning of usage interval - Customers at the end of usage interval) / Customers at the beginning of usage interval
+
+* Engagement metrics are used to define the number of active users within a specific time period (ranging from daily, weekly to monthly)
+
+* Software as a service (SaaS): SaaS is a software distribution model in which the application is made available on servers hosted by a third-party provider, which in turn provides the software to customers over the Internet.
+Subscriber-based service model: Subscriber-based service model is a model where consumers agree to pay a subscription fee to gain access to the service or product
+
+
+There are financial statement that any business need to provide to the stakeholders or owners, they are; Profit & Loss Statement, Cash Flow Statement, and Balance Sheet.
+===Profit & Loss Statement(P&L statement):
+	is also called an income statement. It is one type of financial statement that shows a company's performance and financial position and is prepared at the end of each quarter or on an annual basis
+	
+* Revenues: The money a company makes from the sales of its products and services.
+* Cost of Goods Sold (COGS) or Cost of Sales: These are the direct costs the company incurs to develop the product or service being sold.
+* Gross Profit: The difference between the revenue earned and the costs summarized in COGS. Gross Profit = Revenue - COGS
+* Selling, General, and Administrative expenses (SGAs): Includes the following expenses:
+	Marketing, sale commissions
+	Salaries for office staff
+	Supplies and computer hardware
+	Note: Some companies list total operating expenses separately from SGAS while others treat them as synonymous with SGAS.
+* Operating expenses: Expenses incurred outside of direct manufacturing costs:
+	Overhead costs, Legal, Rent, Utilities, Taxes, Interest ,R&D expenses.
+* Total Operating Expenses = Sum of SGAs and Operating expenses Total Operating Expenses= SGAs + Operating Expenses
+* Operating Income: The difference between Gross profit and Total operating expenses Operating Income = Gross Profit - Total Operating Expenses
+	Note: Operating Income is also referred to as Earnings Before Interest and Tax (EBIT)
+*Net Income: Subtracting the Interest and Tax from Operating Income gives the Net Income Net Income = Operating Income - (Interest and Taxes)
+
+Gross Margin is a statement about the overall profitability of the company.
+	Gross Margin =  (Total Sales Revenue - Cost of Goods Sold)/ Total Sales Revenue = Gross Profit / Total Sales Revenue
+	Gross Margin tells business executives what percentage of each revenue dollar is available to cover operating expenses after the COGS have been accounted for
+
+===Modeling:
+is an anticipation -using some inputs- of how a certain business metric will perform throughtout a specific duration.
+
+Top-Down Modeling Approach: You start with the best estimate of the larger size of the market narrowing it down to identify the portion of the market that the company is serving
+
+Bottom-Up Modeling Approach: starts by looking at historical data. The more data you have, the better. The model forecasts are based on this data to make assumptions about how the key metrics will behave, and then we forecast out the revenue based on these assumptions.
+
+===Components of a Forecast Model
+Inputs or Drivers: These are the inputs that drive the output of the model and can include a combination of historical data, assumptions, and scenario analysis.
+Outputs: This is the metric being forecasted within the model.
+
+
+Typically, the historical statistics or metrics used to forecast financial metrics in an Income Statement are:
+- Revenue Growth: (in %) = (Current Year's Revenue / Previous year's revenue) - 1
+- Gross  = (in %) = (Current Year's Revenue / Previous year's revenue) - 1
+- Operating Margin: Current Year's Operating Income / Current Year's Total Revenue
+- Historical Tax Rate:  is the tax rate from the companies previous year's tax rate.
+- Historical Interest Expense Rate: is the interest rate coming from the previous year's Debt Schedule.
+
+
+
+4/Freelancing
+========================================
+Freelancing problems:
+- Some employers are not convinced with hiring someone online
+- Getting paid
+
+Money Making Predictions:
+- It depends on the work field, experience of the freelancer, geographical location and income average, money transfer options available in the freelancer's country, seriousness, work expectations, knowledge of freelancing basics, and self branding.
+
+Freelancing platforms:
+- Project Based: consists of specific tasks, it has competition between freelancers since each one is required to present offers and the best offer wins.
+- Small Tasks oriented: selling a service by sharing it on the platform and it can be purchased many times.
+
+Misleading Money Earning Methods Online:
+- Pyramid Schemes, Dollar per Click/Ad, Network Marketing
+
+Freelancing Positives:
+- Freedom and Flexibility: in choosing work times and types of projects, and in choosing the type of clients
+- Local and International Market Accessability
+
+Freelancing Challenges:
+- Unexpected Work Flow
+- Hard to Expect Profits and their timing
+- Self Financial Organization
+- Multiple responsabilities and work priorities since a freelance becomes their own manager, team lead.
+- Time zones differences between clients and freelancers
+
+Gradual Move to Freelancing:
+- Partial indepenance: a freelancer shouldn't leave their primary job and move directly to freelancing, they should start working freelancing and keep their stable jobs. They also need to extend their network and look up to work and freelancing examples
+- Saving in advance (6 months) because freelancing is not stable 
+- Expenses reduction
+- Make spending and investing plan
+- Keep it flexible with the stable jobs
+
+Freelancing Life Style:
+- It's more than money. Sometimes a freelancer would choose a less paying work because he/she might be interested in the project itself or the employer
+- Reputation building is done throughout picking the right projects
+- Existance of self motivation. Since there is no boss for a freelancer, they need to be motivated to finish the job and to be in control
+- Open-minded personality to deal with life turbulences
+- Money Vs Time Equation
+
+Look for:
+- Country Work Permit. Some countries require certain jobs even freelancing to have a working permit
+- Taxes. Check whether freelancing profits should be included in your taxes or not
+
+Digital Products:
+- Courses/ Training
+- Mobile or Web Applications
+- Digital Art and Designing
+- Audios and Video Editing
+- Voice Over
+- Electronic Books
+
+
+Working by Comession Parties:
+- Advertiser(product owner)				- Marketier(freelancer)			- Platform(website, social media, blog)				- Customer(buyer)
+Working by Comession Types: 
+- Cost per Sale							- Cost per Action
+
+Money Earning Methods:
+- PayPal
+- Virtual Banks
+- Mediator
+- Western Union. 7ewala, no account, just personal information
+- Paysera
+- Payoneer
+- Transferwise
+
+Control Your Product's Quality:
+- Freelancer's Response and Commitment
+- Image of the service
+- Delivery time rate
+- Service Title
+- Samples
+- Appropriate Category
+- Service Rating
+
+First Service Selling Notes: selling your first service could be very hard and might take time
+- Quantity: to stand out, make the same service that other freelancers do with the same price, but increase the quantity
+- Improve quality
+- Read veteran stories to learn from their mistakes and benefit from ways that worked for them
+- Marketing
+
+Establish Unique Identity:
+- Personal Branding
+- Self-Knowing: motives, experience, excellence sides, goal
+- Self-Interests and followers' interests
+- Know Competition: strength and weakness points, work strategies
+
+How to Establish Identity:
+- Social Presence
+- Portofolio
+- Visual Identity
+- Work Slogan
+- Unique Style
+- Continuous Learning and developing
+- Quality is important
+- Good Communication
+
+

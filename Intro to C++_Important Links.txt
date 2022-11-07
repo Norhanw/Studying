@@ -1,0 +1,55 @@
+#####C++ Primer, fifth edition pdf:
+https://www.pdfdrive.com/c-primer-fifth-edition-d40377195.html?fbclid=IwAR2i3xLvHsETCtfHLp_afo0fin7BfycbHgHIuOOteReBVtP18Bmn5zu_EJU
+
+#####beginner to advanced C++ tutorials with examples:
+https://www.learncpp.com/
+
+#####The Cherno, C++ playlist (beginner to advanced topics) ( english):
+https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
+
+#####My code school, data structure playlist(beginner):
+https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+
+#####My code school, Pointers in C/C++ playlist:
+https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_
+
+Data Structures Full Course (theoritical)(Arabic):
+https://www.youtube.com/playlist?list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp
+
+Data Structures Playlist (theoritical)( Arabic):
+https://www.youtube.com/playlist?list=PLoK2Lr1miEm-5zCzKE8siQezj9rvQlnca
+
+Algorithm and data structures playlist (theoritical)(Arabic):
+https://www.youtube.com/playlist?list=PLTr1xN4uMK5tSBFyXeonC2khyir0aMwQv
+
+Design Patterns in C++ (with a case study):
+https://www.youtube.com/playlist?list=PLZ9NgFYEMxp6p4oC9bP3PZdZ-FAPDeavB
+
+Ahmed Samy, Modern C++ ( smart pointers, lambda, final& excplicit specifiers,multithreading,etc):
+https://www.youtube.com/playlist?list=PL-0DuCD_VvwBk66S8FfRqxHY1_XZCbGFc
+
+Ahmed Samy, Multithreading in c++:
+https://www.youtube.com/playlist?list=PL-0DuCD_VvwDNFgQePtSQRnvDoCVYQ4lk
+
+Vivekanad Khyade, Algorithm Every Day, A channel for advanced data structures and algorithms:
+https://www.youtube.com/user/vivekanandkhyade/featured
+
+Bug Bounty website:
+https://www.hackerone.com/
+
+######William fiset, data structure playlist(English, small), should all the contents on his channel
+https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu
+
+
+######Dr. Mostafa Saad Ibrahim, Mastering 4critical skills using c++17 
+https://www.udemy.com/share/103GjP3@V6naL2FZm22w3seJsfsZBV0k_sijxh3WSjLzyNnZ-TDzanVBuvbUCBJ4A6SnyQRL/
+
+Mastering 4critical skills using python
+https://www.udemy.com/share/103XZw3@q0hz4fbttzVrdhfjE3yn7ptSZV8Yea7IUA3Cv8CPgQ6MHMHXxp26cD9DOjCGEWFu/
+
+John Purcell, Learn advanced c++ programming
+https://www.udemy.com/share/101Xmk3@pBuBStB_2TTrn9O4bFpz7ByfabMWFp5jbHZsUvslP3lGEZbb1xY1FtXriUVA1fvq/
+
+
+Dimitri Nesteruk, Design Patterns in modern c++
+https://www.udemy.com/share/101ZWU3@1wTnE4ijqdXclieyuRy6VN_yNUF6rUdBVh8tscfx3ewx2VqhZWJgnTrjUevqalzD/

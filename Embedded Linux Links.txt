@@ -1,0 +1,23 @@
+
+
+
+Additional resourses: 
+1/ Linux Kernel bird's eye view
+https://www.youtube.com/watch?v=as2jLEEgF5M&list=PLs2E_DpcI_ixbTww9Elaej9XXrYvxFcOy&fbclid=IwAR2LV0YmvYzLz_XkOBzl87DHpf06rRYOOtnIAd-cUNfn__QK6Fb1Qe5SXPc
+2/ Complete Tutorial on Shell scripting
+https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790&fbclid=IwAR1r3716iDjG-XE2OFVZFHGQVAe96mYHlF3_cJBrRFpQMs7StAZ4p2I9iOk
+3/ TCP/IP Configuration commands on linux:
+https://www.whatismyip.com/linux-ip-commands/
+
+Free RTOS: 
+https://www.youtube.com/playlist?list=PLEfMFrwVdbPYzMgeaLiFRb4ogjV8m3lt6
+
+Introduction to Embedded Linux, Dr. Ahmed El Arabawy:
+https://www.youtube.com/playlist?list=PLWXRxAK4bUzcpkyP9PsKmtXzVDHVOOGsi
+
+Understanding Linux, Dr.Ahmed El Arabawy:
+https://www.youtube.com/playlist?list=PLWXRxAK4bUzc9gq-W2xWDe9zEaDcowLfs
+
+
+
+ 

@@ -1,0 +1,176 @@
+
+
+Revision:
+
+Easy to Advanced Data Structures: Udemy, William Fiest
+
+#####My code school, data structure playlist(beginner):
+https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+
+
+CORE MAJORS:
+1/ Embedded Systems:
+=================================
+Embedded Microcontroller Drivers Part 1 : Udemy, fastbit academy
+
+Embedded Microcontroller Drivers Part 2: Udemy, fastbit academy
+
+
+STM32Fx Microcontroller Custom Bootloader Development: Udemy, fastbit academy
+
+
+ARM Cortex-M Microcontroller DMA Programming: Udemy, fastbit academy
+
+Embedded Systems Programming on ARM Cortex-M: Udemy, fastbit academy
+
+
+Mastering RTOS: Udemy, fastbit academy
+
+2/ Embedded Linux
+================================
+Course 101: Introduction to Embedded Linux, dr Ahmed Alarabawy
+
+Course 102: Understanding Linux, dr Ahmed Alarabawy
+
+Embedded Linux CU: sent by AlaaEldin Zaki
+
+Linux Device Driver Programming: Udemy, fastbit academy
+
+Embedded Linux Step by Step: Udemy, fastbit academy
+
+Mastering vi/vim Linux Command : Udemy, Mushtaq Ali
+
+
+
+3/ Software Development
+==============================
+Learn Advanced C++ Programming: Udemy, John Procell
+
+
+Mastering 4 Critical Skills Using Python: Udemy, Mostafa Saad Ibrahim
+
+
+Mastering 4 Critical Skills Using C++: Udemy, Mostafa Saad Ibrahim
+
+Design Patterns in Modern C++: Udemy, Dimitri Nestreuk
+
+Software Design and Architecture Specialization: Coursera, University of Alberta
+https://www.coursera.org/specializations/software-design-architecture
+
+Design Patterns, Elements of Reusable Object-Oriented Software: Erich Gamma et al.
+
+C++ Primer, fifth edition pdf
+
+https://www.learncpp.com/
+
+Vivekanad Khyade, Algorithm Every Day, A channel for advanced data structures and algorithms:
+https://www.youtube.com/user/vivekanandkhyade/featured
+
+
+Data Structures and Algorithms Specialization: Coursera, University of California, San diego
+https://www.coursera.org/specializations/data-structures-algorithms
+
+
+Algorithms Specialization: Uiversity of Stanford
+https://www.coursera.org/specializations/algorithms
+
+Software Analysis and Design, Birgit Penzenstadler
+https://www.youtube.com/playlist?list=PLUgFMzuE8lQDLRhCNs19-RHpUY-_6ZI6Y
+
+
+Design Patterns in C++ (with a case study):
+https://www.youtube.com/playlist?list=PLZ9NgFYEMxp6p4oC9bP3PZdZ-FAPDeavB
+
+
+Ahmed Samy, Modern C++ ( smart pointers, lambda, final& excplicit specifiers,multithreading,etc):
+https://www.youtube.com/playlist?list=PL-0DuCD_VvwBk66S8FfRqxHY1_XZCbGFc
+
+
+4/ Parallel programming
+============================
+Parallel Computing Course: UOS, Ali Elmoursy	
+
+Ahmed Samy, Multithreading in c++:
+https://www.youtube.com/playlist?list=PL-0DuCD_VvwDNFgQePtSQRnvDoCVYQ4lk
+
+Parallel, Concurrent, and Distributed Programming in Java Specialization: Coursera, 
+https://www.coursera.org/specializations/pcdp
+
+
+5/ Java 
+========================
+
+Android Studio Tutorial for Beginners, Edureka
+https://www.youtube.com/playlist?list=PL9ooVrP1hQOFUMO28LGDXqzdCeeo60sAL
+
+
+
+ELECTIVE MAJORS:
+1/ Cybersecurity 
+=====================================
+The Complete Cybersecurity Course 1: Udemy, Nathan House
+
+The Complete Cybersecurity Course 2: Udemy, Nathan House
+
+
+
+2/ AI
+====================================
+<< Revise MT plan for studying AI and Machine Learning on FB>>
+<< Check any saved posts for studying AI and Machine Learning on FB from groups>>
+
+Machine Learing: Coursera, Andrew Ng
+
+
+Mathimatical Foundations of Machine Learning: Udemy, Jon Krohn
+
+Machine Learning Nanodegree: Udemy, Tamer Eid
+
+
+3/ Image Processing & computer vision
+=====================================
+
+
+4/ VLSI
+=====================================
+VLSI CAD Part1, Logic: Coursera,University of Illinois 
+
+VLSI Course: UOS, Basel Soudan
+Introduction to FPGA Design for Embedded Systems: Coursera, University of Colorado Boulder
+
+5/ HW Security
+======================================
+<< Check the textbooks you have on google drive: sent by Dr Watheq
+
+6/ AUTOSAR
+======================================
+https://www.facebook.com/groups/EmbeddedSystem.SA/permalink/1454763911647488/
+
+
+7/ Different courses
+======================================
+https://lab.github.com/
+Design Thinking: Design Thinking is a human-centric approach to creating solutions. This course will teach you the principles of Design Thinking and walk you through applying its five phases to your projects
+https://lab.github.com/githubtraining/introduction-to-design-thinking
+
+8/ Java
+===============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+9/ Project Management:
+===============================
+
+Google Project Management: Professional Certificate
+https://www.coursera.org/professional-certificates/google-project-management?utm_source=gg&utm_medium=sem&utm_campaign=15-GoogleProjectManagement-ROW&utm_content=B2C&campaignid=12566603960&adgroupid=119730742299&device=c&keyword=coursera%20project%20management%20certification&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=507246079336&hide_mobile_promo&gclid=EAIaIQobChMI4Mn6-YuF-gIVCbTtCh2YzQmrEAAYASAAEgKmU_D_BwE
+
